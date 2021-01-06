@@ -1,0 +1,71 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${workspaceFolder}/<your program>",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "serial_test",
+            "program": "${workspaceFolder}/devel/lib/robotis_control/serial_test",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "stim_test",
+            "program": "${workspaceFolder}/devel/lib/robotis_control/stim_test",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "ins_motor",
+            "program": "${workspaceFolder}/devel/lib/robotis_control/ins_motor_test",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "tmotor",
+            "program": "${workspaceFolder}/devel/lib/robotis_control/tmotorTest",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "canTest",
+            "program": "${workspaceFolder}/devel/lib/robotis_control/canTest",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "rosTest",
+            "program": "${workspaceFolder}/devel/lib/robotis_control/rosTest",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

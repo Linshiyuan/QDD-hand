@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "clangd.arguments": [
+        "-header-insertion=never",
+        "-compile-commands-dir=${workspaceRoot}/../build/"
+    ]
+}
